@@ -1,21 +1,50 @@
-/* Full-screen background image */
+/* Background styling */
 body {
   margin: 0;
   padding: 0;
-  background: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fpremium-ai-image%2Fabstract-background-design-images-wallpaper-ai-generated_77315010.htm&psig=AOvVaw2E34UleVEugfDOSuEZjIOH&ust=1745558471405000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMDIgZf274wDFQAAAAAdAAAAABAJ) no-repeat center center fixed;
+  background: url('https://img.freepik.com/premium-photo/abstract-background-design-images-wallpaper-ai-generated_643360-147660.jpg') no-repeat center center fixed;
   background-size: cover;
   font-family: Arial, sans-serif;
-  color: white;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
-/* Centered overlay text */
-.overlay {
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent overlay */
-  padding: 30px;
+/* Login box styling */
+.login-container {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px 30px;
   border-radius: 10px;
+  text-align: center;
+  color: white;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #2980b9;
 }
