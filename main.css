@@ -1,0 +1,21 @@
+/* Full-screen background image */
+body {
+  margin: 0;
+  padding: 0;
+  background: url('background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Centered overlay text */
+.overlay {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent overlay */
+  padding: 30px;
+  border-radius: 10px;
+}
